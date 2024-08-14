@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'docker-enabled' }
+    agent any
     stages {
         stage("build") {
             steps {
